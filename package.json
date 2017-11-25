@@ -1,0 +1,45 @@
+{
+  "name": "employee-helper-server",
+  "version": "1.0.0",
+  "description": "employee-helper-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r babel-register  -r dotenv/config ./lib/index.js"
+  },
+  "author": "greatermeans",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/language": "0.11.0",
+    "axios": "^0.16.1",
+    "babel-cli": "^6.24.1",
+    "body-parser": "^1.14.1",
+    "bunyan": "^1.8.1",
+    "bunyan-debug-stream": "^1.0.7",
+    "debug": "latest",
+    "dotenv": "^2.0.0",
+    "expo-server-sdk": "^2.3.3",
+    "express": "^4.13.3",
+    "firebase": "^4.2.0",
+    "google-cloud": "^0.44.2",
+    "gulp": "^3.9.1",
+    "gulp-merge-json": "^1.1.0",
+    "jsonfile": "^3.0.1",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "node-mysql-helper": "^0.6.7",
+    "nodemon": "^1.11.0",
+    "request": "^2.81.0",
+    "restify": "^4.1.0",
+    "uuid": "^3.0.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.11.6",
+    "eslint": "^3.11.1"
+  }
+}
